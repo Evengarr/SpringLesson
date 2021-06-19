@@ -15,8 +15,6 @@ public class MainApp {
         DemoBean demoBean2 = context.getBean("bean", DemoBean.class);
         System.out.println(demoBean2.getTitle());
 
-
-
         context.close();
     }
 }

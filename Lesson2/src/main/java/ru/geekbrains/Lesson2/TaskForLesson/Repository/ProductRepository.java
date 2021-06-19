@@ -2,15 +2,13 @@ package ru.geekbrains.Lesson2.TaskForLesson.Repository;
 
 import ru.geekbrains.Lesson2.TaskForLesson.Product;
 
-
 public interface ProductRepository {
+    void createdProduct(Product product);
 
-    public void createdProduct(Product product);
+    void readProduct(int id);
 
-    public void readProduct(int id);
+    void updateProduct(Product product);
 
-    public void updateProduct(Product product);
-
-    public void deletedProduct(int id);
+    void deletedProduct(int id);
 
 }

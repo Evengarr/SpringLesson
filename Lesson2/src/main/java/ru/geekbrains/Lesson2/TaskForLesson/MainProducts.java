@@ -6,7 +6,6 @@ import ru.geekbrains.Lesson2.TaskForLesson.Service.ProductOperationService;
 
 public class MainProducts {
     public static void main(String[] args) {
-
         AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(ProductsConfig.class);
 
         ProductOperationService productOperationService = context.getBean("operation", ProductOperationService.class);

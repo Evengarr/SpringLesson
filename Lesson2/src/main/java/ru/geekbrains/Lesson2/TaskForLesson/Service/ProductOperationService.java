@@ -5,7 +5,6 @@ import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 import ru.geekbrains.Lesson2.TaskForLesson.Product;
 import ru.geekbrains.Lesson2.TaskForLesson.Repository.RepositoryOperationProduct;
-
 import javax.annotation.PostConstruct;
 import java.util.ArrayList;
 import java.util.List;

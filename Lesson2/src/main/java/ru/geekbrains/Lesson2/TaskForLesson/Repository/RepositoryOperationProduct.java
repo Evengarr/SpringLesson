@@ -4,6 +4,7 @@ import ru.geekbrains.Lesson2.TaskForLesson.Product;
 import java.util.List;
 
 public class RepositoryOperationProduct implements ProductRepository {
+
     private List<Product> productList;
 
     @Override

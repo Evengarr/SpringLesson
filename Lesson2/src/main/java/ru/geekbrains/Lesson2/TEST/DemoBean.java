@@ -7,7 +7,6 @@ import org.springframework.stereotype.Component;
 import javax.annotation.PostConstruct;
 
 @Component (value = "bean")
-//@Scope (scopeName = "prototype")
 public class DemoBean {
     private String title;
 
