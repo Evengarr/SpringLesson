@@ -1,0 +1,46 @@
+package ru.geekbrains.Lesson2.TaskForLesson;
+
+public class Product {
+    int id;
+    String title;
+    double cost;
+
+    public Product(int id, String title, double cost) {  //класс описания продукта
+        this.id = id;
+        this.title = title;
+        this.cost = cost;
+    }
+
+    @Override
+    public String toString() {
+        return "Product{" +
+                "id=" + id +
+                ", title='" + title + '\'' +
+                ", cost=" + cost +
+                '}';
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+    public double getCost() {
+        return cost;
+    }
+
+    public void setCost(double cost) {
+        this.cost = cost;
+    }
+}
