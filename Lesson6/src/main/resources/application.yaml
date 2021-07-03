@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/postgres?currentSchema=hiber
+    username: postgres
+    password: Ytrewq@951
+  jpa:
+    show-sql: true
+    properties:
+      hibernate.current_session_context_class: thread
+server:
+  port: 8189
